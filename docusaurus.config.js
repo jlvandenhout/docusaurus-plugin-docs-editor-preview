@@ -12,7 +12,7 @@ module.exports = {
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'jlvandenhout', // Usually your GitHub org/user name.
-  projectName: 'docusaurus-plugin-docs-editor-preview', // Usually your repo name.
+  projectName: 'docusaurus-plugin-docs-editor', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'Docs Editor',
@@ -97,7 +97,10 @@ module.exports = {
     [
       '@jlvandenhout/docusaurus-plugin-docs-editor',
       {
-        docsPath: 'docs',
+        docs: {
+          owner: 'jlvandenhout@gmail.com',
+          repo: 'docusaurus-plugin-docs-editor-preview'
+        },
         github: {
           clientId: process.env.CLIENT_ID,
           tokenUrl: process.env.TOKEN_URL,
