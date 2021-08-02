@@ -1524,7 +1524,7 @@
 
 "@jlvandenhout/docusaurus-plugin-docs-editor@jlvandenhout/docusaurus-plugin-docs-editor":
   version "0.1.0"
-  resolved "https://codeload.github.com/jlvandenhout/docusaurus-plugin-docs-editor/tar.gz/57828b4aeda2fc5d292a48f1e958b2d4218c78b0"
+  resolved "https://codeload.github.com/jlvandenhout/docusaurus-plugin-docs-editor/tar.gz/71d5cbadc8198e3800e56a96f6f0164272428b99"
   dependencies:
     "@octokit/core" "^3.5.1"
     "@octokit/plugin-rest-endpoint-methods" "^5.5.1"
