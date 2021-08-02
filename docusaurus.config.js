@@ -98,7 +98,7 @@ module.exports = {
       '@jlvandenhout/docusaurus-plugin-docs-editor',
       {
         docs: {
-          owner: 'jlvandenhout@gmail.com',
+          owner: 'jlvandenhout',
           repo: 'docusaurus-plugin-docs-editor-preview'
         },
         github: {
