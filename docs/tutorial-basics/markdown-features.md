@@ -53,7 +53,7 @@ Add an image at `static/img/docusaurus.png` and display it in Markdown:
 ![Docusaurus logo](/img/docusaurus.png)
 ```
 
-![Docusaurus logo](/img/docusaurus.png)
+![Docusaurus logo](https://raw.githubusercontent.com/andrew-brough/docusaurus-plugin-docs-editor-preview/edit/docs-tutorial-basics-markdown-features-md/static/img/docusaurus.png)
 
 ## Code Blocks
 
