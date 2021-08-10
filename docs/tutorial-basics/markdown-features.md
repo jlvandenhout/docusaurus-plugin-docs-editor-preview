@@ -10,7 +10,7 @@ Docusaurus supports [**Markdown**](https://daringfireball.net/projects/markdown/
 
 Markdown documents have metadata at the top called [Front Matter](https://jekyllrb.com/docs/front-matter/):
 
-```text
+```true
 // highlight-start
 ---
 id: my-doc-id
@@ -45,7 +45,7 @@ Regular Markdown images are supported.
 
 Add an image at `static/img/docusaurus.png` and display it in Markdown:
 
-```md
+```true
 ![Docusaurus logo](/img/docusaurus.png)
 ```
 
@@ -63,7 +63,7 @@ Markdown code blocks are supported with Syntax highlighting.
     }
     ```
 
-```jsx
+```javascript
 function HelloDocusaurus() {
   return <h1>Hello, Docusaurus!</h1>;
 }
