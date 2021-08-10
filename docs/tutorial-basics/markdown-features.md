@@ -4,7 +4,11 @@ sidebar_position: 4
 
 # Markdown Features
 
-Docusaurus supports [**Markdown**](https://daringfireball.net/projects/markdown/syntax) and a few **additional features**.
+Docusaurus supports [**Markdown**](https://daringfireball.net/projects/markdown/syntax) and a few **additional features**. Hello World.
+
+*   This is a bullet item
+*   This is another bullet item
+*   Last bullet
 
 ## Front Matter
 
