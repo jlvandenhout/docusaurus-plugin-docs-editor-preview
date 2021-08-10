@@ -4,13 +4,13 @@ sidebar_position: 4
 
 # Markdown Features
 
-Docusaurus supports **[Markdown](https://daringfireball.net/projects/markdown/syntax)** and a few **additional features**.
+Docusaurus supports [**Markdown**](https://daringfireball.net/projects/markdown/syntax) and a few **additional features**.
 
 ## Front Matter
 
 Markdown documents have metadata at the top called [Front Matter](https://jekyllrb.com/docs/front-matter/):
 
-```text title="my-doc.md"
+```text
 // highlight-start
 ---
 id: my-doc-id
@@ -63,7 +63,7 @@ Markdown code blocks are supported with Syntax highlighting.
     }
     ```
 
-```jsx title="src/components/HelloDocusaurus.js"
+```jsx
 function HelloDocusaurus() {
   return <h1>Hello, Docusaurus!</h1>;
 }
