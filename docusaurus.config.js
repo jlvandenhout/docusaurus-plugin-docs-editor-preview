@@ -79,13 +79,13 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/jlvandenhout/docusaurus-plugin-docs-editor/edit/master/example/',
+            'https://github.com/jlvandenhout/docusaurus-plugin-docs-editor-preview/edit/master/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/jlvandenhout/docusaurus-plugin-docs-editor/edit/master/example/',
+            'https://github.com/jlvandenhout/docusaurus-plugin-docs-editor-preview/edit/master/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
