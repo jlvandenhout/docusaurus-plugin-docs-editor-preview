@@ -71,7 +71,7 @@ module.exports = {
 
 The locale dropdown now appears in your navbar:
 
-![Locale Dropdown](/img/tutorial/localeDropdown.png)
+![Locale Dropdown](https://raw.githubusercontent.com/jlvandenhout-test/docusaurus-plugin-docs-editor-preview/edit/docs-tutorial-extras-translate-your-site-md/static/img/tutorial/localeDropdown.png)
 
 ## Build your localized site
 
