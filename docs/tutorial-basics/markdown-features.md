@@ -41,7 +41,7 @@ Let's see how to [Create a page](./create-a-page.md).
 
 ## Images
 
-Regular Markdown images are supported.
+Regular Markdown images are .
 
 Add an image at `static/img/docusaurus.png` and display it in Markdown:
 
