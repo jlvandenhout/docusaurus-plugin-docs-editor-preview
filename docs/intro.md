@@ -10,7 +10,7 @@ Let's discover **Docusaurus in less than 5 minutes**.
 
 Get started by **creating a new site**.
 
-Or **try Docusaurus immediately** with **[new.docusaurus.io](https://new.docusaurus.io)**.
+Or **try Docusaurus immediately** with [**new.docusaurus.io**](https://new.docusaurus.io/).
 
 ## Generate a new site
 
@@ -22,7 +22,7 @@ npx @docusaurus/init@latest init my-website classic
 
 ## Start your site
 
-Run the development server:
+Run the development server:klkllkklklkjjkhkh
 
 ```shell
 cd my-website
