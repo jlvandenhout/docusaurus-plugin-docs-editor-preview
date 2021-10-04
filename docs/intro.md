@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Tutorial Intro
 
-Let's discover **Docusaurus in less than 15 minutes**.
+Let's discover **Docusaurus in less than 155 minutes**.
 
 ## Getting Started
 
