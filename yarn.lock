@@ -2099,7 +2099,7 @@ __metadata:
 
 "@jlvandenhout/docusaurus-plugin-docs-editor@file:./..::locator=docusaurus-plugin-docs-editor-preview%40workspace%3A.":
   version: 0.7.0
-  resolution: "@jlvandenhout/docusaurus-plugin-docs-editor@file:./..#./..::hash=6a7df1&locator=docusaurus-plugin-docs-editor-preview%40workspace%3A."
+  resolution: "@jlvandenhout/docusaurus-plugin-docs-editor@file:./..#./..::hash=80894d&locator=docusaurus-plugin-docs-editor-preview%40workspace%3A."
   dependencies:
     "@octokit/core": ^3.5.1
     "@octokit/plugin-rest-endpoint-methods": ^5.5.1
@@ -2127,6 +2127,7 @@ __metadata:
     "@tiptap/react": ^2.0.0-beta.55
     base-64: ^1.0.0
     clsx: ^1.1.1
+    react: ^17.0.2
     rehype-highlight: ^5.0.0
     rehype-parse: ^7.0.1
     rehype-remark: ^8.1.1
@@ -2142,7 +2143,7 @@ __metadata:
     unified: ^9.2.1
     utf8: ^3.0.0
     yaml: ^1.10.2
-  checksum: 2ed5ba27a50a73c8d5c15cf9f91516bcf7e1482817d149a5fff50b426e8fba13ef3defa0ba39d92c7a8eea4dfc4bceb0202667cfdf4b3f7c94657281caa222cd
+  checksum: 6ffb3658dec6900b72673c74710843099c705b2d689471134da500dd7fb26f4546a960b53cee71563683494930ec071852a03f141a0684a5c32922b32887ce1d
   languageName: node
   linkType: hard
 
@@ -10056,7 +10057,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react@npm:^17.0.1":
+"react@npm:^17.0.1, react@npm:^17.0.2":
   version: 17.0.2
   resolution: "react@npm:17.0.2"
   dependencies:
