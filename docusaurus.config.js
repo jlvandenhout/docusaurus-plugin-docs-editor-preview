@@ -99,14 +99,14 @@ module.exports = {
       {
         docs: {
           owner: 'jlvandenhout',
-          repo: 'docusaurus-plugin-docs-editor-preview'
+          repo: 'docusaurus-plugin-docs-editor-preview',
         },
         github: {
           clientId: process.env.CLIENT_ID,
           tokenUrl: process.env.TOKEN_URL,
           method: process.env.METHOD,
-        }
-      }
-    ]
-  ]
+        },
+      },
+    ],
+  ],
 };
