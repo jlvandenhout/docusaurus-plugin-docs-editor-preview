@@ -1,5 +1,5 @@
 {
-  "name": "docusaurus-editor-preview",
+  "name": "docusaurus-plugin-docs-editor-preview",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -13,8 +13,8 @@
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
     "typecheck": "tsc",
-    "check": "prettier --check . && eslint --cache src",
-    "fix": "prettier --write . && eslint --cache --fix src",
+    "check": "prettier --check . && eslint --cache .",
+    "fix": "prettier --write . && eslint --cache --fix .",
     "postinstall": "husky install"
   },
   "dependencies": {

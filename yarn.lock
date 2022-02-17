@@ -4919,9 +4919,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"docusaurus-editor-preview@workspace:.":
+"docusaurus-plugin-docs-editor-preview@workspace:.":
   version: 0.0.0-use.local
-  resolution: "docusaurus-editor-preview@workspace:."
+  resolution: "docusaurus-plugin-docs-editor-preview@workspace:."
   dependencies:
     "@docusaurus/core": 2.0.0-beta.15
     "@docusaurus/module-type-aliases": 2.0.0-beta.15

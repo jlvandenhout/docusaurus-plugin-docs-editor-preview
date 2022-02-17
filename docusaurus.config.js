@@ -1,20 +1,23 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
+// eslint-disable-next-line @typescript-eslint/no-var-requires
 const lightCodeTheme = require('prism-react-renderer/themes/github');
+// eslint-disable-next-line @typescript-eslint/no-var-requires
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  title: 'Editor preview',
+  tagline: 'A preview of the Docusaurus docs editor plugin',
+  url: 'https://jlvandenhout.github.io/',
+  baseUrl: '/docusaurus-plugin-docs-editor-preview/',
+  trailingSlash: false,
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'jlvandenhout', // Usually your GitHub org/user name.
+  projectName: 'docusaurus-plugin-docs-editor-preview', // Usually your repo name.
 
   presets: [
     [
@@ -25,13 +28,13 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/jlvandenhout/docusaurus-plugin-docs-editor-preview/edit/main/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/jlvandenhout/docusaurus-plugin-docs-editor-preview/edit/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
