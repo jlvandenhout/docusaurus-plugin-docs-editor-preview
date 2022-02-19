@@ -2,6 +2,8 @@
 // Note: type annotations allow type checking and IDEs autocompletion
 
 // eslint-disable-next-line @typescript-eslint/no-var-requires
+const path = require('path');
+// eslint-disable-next-line @typescript-eslint/no-var-requires
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 // eslint-disable-next-line @typescript-eslint/no-var-requires
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
@@ -18,7 +20,22 @@ const config = {
   favicon: 'img/favicon.ico',
   organizationName: 'jlvandenhout', // Usually your GitHub org/user name.
   projectName: 'docusaurus-plugin-docs-editor-preview', // Usually your repo name.
-
+  plugins: [
+    [
+      path.resolve(__dirname, './../lib'),
+      {
+        docs: {
+          owner: 'jlvandenhout',
+          repo: 'docusaurus-plugin-docs-editor-preview',
+        },
+        github: {
+          clientId: process.env.CLIENT_ID,
+          tokenUrl: process.env.TOKEN_URL,
+          method: process.env.METHOD,
+        },
+      },
+    ],
+  ],
   presets: [
     [
       'classic',
