@@ -38,10 +38,6 @@
     "prettier": "^2.5.1",
     "typescript": "^4.5.2"
   },
-  "peerDependencies": {
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
-  },
   "browserslist": {
     "production": [
       ">0.5%",
@@ -58,5 +54,9 @@
   "lint-staged": {
     "*.{js,jsx,ts,tsx,css,less,md,mdx,json}": "prettier --write",
     "*.{js,jsx,ts,tsx}": "eslint --cache --fix"
+  },
+  "peerDependencies": {
+    "react": "^16.8.4 || ^17.0.0",
+    "react-dom": "^16.8.4 || ^17.0.0"
   }
 }
