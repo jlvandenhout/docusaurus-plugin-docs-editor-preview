@@ -23,4 +23,3 @@ jobs:
         run: |
           yarn install --immutable
           yarn check
-          yarn build
