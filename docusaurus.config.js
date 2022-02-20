@@ -13,7 +13,7 @@ const config = {
   title: 'Editor preview',
   tagline: 'A preview of the Docusaurus docs editor plugin',
   url: 'https://jlvandenhout.github.io/',
-  baseUrl: '/docusaurus-plugin-docs-editor-preview/',
+  baseUrl: '/docusaurus-plugin-docs-editor/',
   trailingSlash: false,
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -24,10 +24,6 @@ const config = {
     [
       path.resolve(__dirname, './../lib'),
       {
-        docs: {
-          owner: 'jlvandenhout',
-          repo: 'docusaurus-plugin-docs-editor-preview',
-        },
         github: {
           clientId: process.env.CLIENT_ID,
           tokenUrl: process.env.TOKEN_URL,
