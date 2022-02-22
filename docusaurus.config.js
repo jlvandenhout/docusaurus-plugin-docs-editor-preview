@@ -26,7 +26,6 @@ const config = {
       {
         authorizationClientId: process.env.AUTHORIZATION_CLIENT_ID,
         authorizationTokenUrl: process.env.AUTHORIZATION_TOKEN_URL,
-        authorizationMethod: process.env.AUTHORIZATION_METHOD,
       },
     ],
   ],
