@@ -24,9 +24,9 @@ const config = {
     [
       path.resolve(__dirname, './../lib'),
       {
-        authorizationClientId: process.env.CLIENT_ID,
-        authorizationTokenUrl: process.env.TOKEN_URL,
-        authorizationMethod: process.env.METHOD,
+        authorizationClientId: process.env.AUTHORIZATION_CLIENT_ID,
+        authorizationTokenUrl: process.env.AUTHORIZATION_TOKEN_URL,
+        authorizationMethod: process.env.AUTHORIZATION_METHOD,
       },
     ],
   ],
