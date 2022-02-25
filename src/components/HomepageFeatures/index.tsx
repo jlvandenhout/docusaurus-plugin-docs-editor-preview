@@ -1,17 +1,20 @@
-import React from 'react';
+import React, { ComponentType, SVGProps } from 'react';
 import clsx from 'clsx';
 import styles from './styles.module.css';
+import MountainImage from '@site/static/img/undraw_docusaurus_mountain.svg';
+import TreeImage from '@site/static/img/undraw_docusaurus_tree.svg';
+import ReactImage from '@site/static/img/undraw_docusaurus_react.svg';
 
 type FeatureItem = {
   title: string;
-  image: string;
+  Image: ComponentType<SVGProps<SVGSVGElement>>;
   description: JSX.Element;
 };
 
 const FeatureList: FeatureItem[] = [
   {
     title: 'Easy to Use',
-    image: require('@site/src/static/img/undraw_docusaurus_mountain.svg'),
+    Image: MountainImage,
     description: (
       <>
         Docusaurus was designed from the ground up to be easily installed and
@@ -21,7 +24,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Focus on What Matters',
-    image: require('@site/src/static/img/undraw_docusaurus_tree.svg'),
+    Image: TreeImage,
     description: (
       <>
         Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
@@ -31,7 +34,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Powered by React',
-    image: require('@site/src/static/img/undraw_docusaurus_react.svg'),
+    Image: ReactImage,
     description: (
       <>
         Extend or customize your website layout by reusing React. Docusaurus can
@@ -41,11 +44,11 @@ const FeatureList: FeatureItem[] = [
   },
 ];
 
-function Feature({ title, image, description }: FeatureItem) {
+function Feature({ title, Image, description }: FeatureItem) {
   return (
     <div className={clsx('col col--4')}>
       <div className='text--center'>
-        <img className={styles.featureSvg} alt={title} src={image} />
+        <Image className={styles.featureSvg} alt={title} />
       </div>
       <div className='text--center padding-horiz--md'>
         <h3>{title}</h3>
