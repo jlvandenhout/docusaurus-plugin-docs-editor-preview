@@ -19,6 +19,16 @@ const config = {
   organizationName: 'jlvandenhout', // Usually your GitHub org/user name.
   projectName: 'docusaurus-plugin-docs-editor-preview', // Usually your repo name.
 
+  plugins: [
+    [
+      '@jlvandenhout/docusaurus-plugin-docs-editor',
+      {
+        authorizationClientId: process.env.OAUTH_CLIENT_ID,
+        authorizationTokenUrl: process.env.OAUTH_TOKEN_URL,
+      },
+    ],
+  ],
+
   presets: [
     [
       'classic',
